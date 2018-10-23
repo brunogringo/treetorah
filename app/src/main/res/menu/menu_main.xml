@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.devbruto.treetorrah.MainActivity">
+
+    <item
+        android:id="@+id/filtroEstado"
+        android:title="Filtrar por estado" />
+
+    <item
+        android:id="@+id/filtroAno"
+        android:title="Filtrar por ano" />
+
+    <item
+        android:id="@+id/todos"
+        android:title="Todos" />
+</menu>

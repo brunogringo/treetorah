@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/tv_ano"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="6dp"
+        android:text="@string/ano_valor"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/tv_multa"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="6dp"
+        android:text="@string/multa_valor"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/tv_estado"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ano"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="6dp"
+        android:text="@string/estado_valor"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/tv_arvore_cortadas"
+        app:layout_constraintTop_toBottomOf="@+id/tv_estado"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="6dp"
+        android:text="@string/arvore_cortada_valor"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/tv_volume"
+        app:layout_constraintTop_toBottomOf="@+id/tv_multa"
+        app:layout_constraintRight_toRightOf="parent"
+        android:padding="6dp"
+        android:text="@string/volume_valor"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/tv_arvore_repostas"
+        app:layout_constraintTop_toBottomOf="@+id/tv_arvore_cortadas"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="6dp"
+        android:text="@string/arvore_reposta_valor"
+        android:layout_height="wrap_content" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
